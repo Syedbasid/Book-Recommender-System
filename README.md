@@ -2,7 +2,7 @@
 
 ## 🚀 Project Overview
 This project is an **interactive Book Recommender System** built using **Python and Streamlit**.  
-It recommends books to users using **Popularity-Based** and **Collaborative Filtering** techniques.
+It recommends books to users using **Popularity Based** and **Collaborative Filtering** techniques.
 
 The recommendation engine is trained using user book rating data and deployed as a web application using Streamlit.
 
@@ -17,7 +17,7 @@ The recommendation engine is trained using user book rating data and deployed as
 
 ## 🧠 Recommendation Techniques Used
 
-### 1️⃣ Popularity-Based Recommendation
+### 1️⃣ Popularity Based Recommendation
 - Uses **average book ratings**
 - Recommends **Top 50 most popular books**
 - Same recommendations for all users
@@ -25,8 +25,8 @@ The recommendation engine is trained using user book rating data and deployed as
 
 ---
 
-### 2️⃣ Collaborative Filtering (Book-Based)
-- Uses **user–book interaction data**
+### 2️⃣ Collaborative Filtering (Book Based)
+- Uses **user book interaction data**
 - Each book is represented as a vector of user ratings
 - Similarity between books is calculated using **Cosine Similarity**
 - Recommends **Top 5 similar books** based on user selection
@@ -59,7 +59,7 @@ Higher cosine value indicates higher similarity between books.
 - 📊 Displays **Top 50 Popular Books**
 - 🔍 Recommends **Top 5 similar books**
 - ⚡ Fast response using precomputed similarity scores
-- 🎨 Simple and user-friendly interface
+- 🎨 Simple and user friendly interface
 
 ---
 
